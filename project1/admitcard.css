@@ -1,0 +1,10 @@
+body {
+  background: url(./img.avif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  background-color: white;
+}
