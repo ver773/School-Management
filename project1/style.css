@@ -5,6 +5,12 @@
 .imagei1 {
   height: 375px;
 }
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
 
 .btn:active {
   opacity: 0.3;
