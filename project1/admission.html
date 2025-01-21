@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
   </head>
   <body>
-    <form action="">
-      <h1>Online Registration</h1>
+    <form class="p-2">
       <div>
-        <label for="School">School:</label>
-        <select>
+        <h3 class="text-secondary">Online Registration</h3>
+        <hr class="" />
+      </div>
+      <div class="d-flex flex-column pb-3">
+        <label class="fw-medium" for="School">School:</label>
+        <select class="rounded-pill p-2">
           <option>Select School</option>
           <option>Default School</option>
           <option>Testing</option>
@@ -18,13 +22,16 @@
         </select>
       </div>
       <div>
-        <h2>Personal Detail</h2>
+        <h5 class="text-secondary">Personal Detail</h5>
+        <hr />
       </div>
 
       <div>
-        <label>Students Name:</label>
-        <input type="text" placeholder="Enter student name" />
-        <label>Gender:</label>
+        <label class="fw-medium d-flex flex column">*Students Name:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
+        <div>
+          <label class="fw-medium">*Gender:</label>
+        </div>
         <input type="radio" />
         <label for="male">Male</label>
         <input type="radio" />
@@ -32,72 +39,87 @@
         <input type="radio" />
         <label for="Other">Other</label>
         <label for="Date">Date of Birth:</label>
-        <input type="date" />
+        <input class="p-2" type="date" />
       </div>
-      <div>
-        <label>Date of Birth:</label>
-        <input type="text" placeholder="Enter date of birth in words" />
-        <label for="Motehr language">Mother Tongue:</label>
-        <input type="text" placeholder="Enter mother tongue" />
-        <label for="Birth place">Birth Place:</label>
-        <input type="text" placeholder="Enter birth place" />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Date of Birth:</label>
+        <input
+          class="p-2"
+          type="text"
+          placeholder="Enter date of birth in words"
+        />
+        <label class="fw-medium">Mother Tongue:</label>
+        <input class="p-2" type="text" placeholder="Enter mother tongue" />
+        <label class="fw-medium" for="Birth place">Birth Place:</label>
+        <input class="p-2" type="text" placeholder="Enter birth place" />
       </div>
-      <h2>Previous School Detail</h2>
-      <div>
-        <label>School Name:</label>
-        <input type="text" placeholder="Enter student name" />
-        <label>School Address:</label>
-        <input type="text" placeholder="Enter student name" />
-        <label>School class:</label>
-        <input type="text" placeholder="Enter student name" />
-        <div>
-          <label>Passout Year:</label>
-          <input type="text" placeholder="Enter student name" />
-          <label for="School">Category:</label>
-          <select>
-            <option>Select Category</option>
-            <option>ST</option>
-            <option>SC</option>
-            <option>OBC</option>
-            <option>GEN</option>
-          </select>
-        </div>
-        <div>
-          <label>School Name:</label>
-          <input type="text" placeholder="Enter student name" />
-          <label>School Address:</label>
-          <input type="text" placeholder="Enter student name" />
-          <label for="School">Blood Group:</label>
-          <select>
-            <option>Select Blood Group</option>
-            <option>O+</option>
-            <option>A+</option>
-            <option>B+</option>
-            <option>AB+</option>
-            <option>O-</option>
-            <option>A-</option>
-            <option>B-</option>
-            <option>AB-</option>
-          </select>
-        </div>
-        <label> Address:</label>
-        <input type="text" placeholder="Enter student address" />
-        <label>Phone:</label>
-        <input type="number" placeholder="Enter student phone No." />
-        <label> Email:</label>
-        <input type="text" placeholder="Enter student email address" />
+      <h5 class="text-secondary">Previous School Detail</h5>
+      <hr />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">School Name:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
+        <label class="fw-medium">School Address:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
+        <label class="fw-medium">School class:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
       </div>
-      <div>
-        <label> City:</label>
-        <input type="text" placeholder="Enter City" />
-        <label>State:</label>
-        <input type="number" placeholder="Enter State" />
-        <label> Country:</label>
-        <input type="text" placeholder="Enter Country" />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Passout Year:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
+        <label class="fw-medium" for="School">Category:</label>
+        <select class="rounded-pill p-2">
+          <option>Select Category</option>
+          <option>ST</option>
+          <option>SC</option>
+          <option>OBC</option>
+          <option>GEN</option>
+        </select>
       </div>
-      <div>
-        <label>Medium:</label>
-        <select>
+      <div class="d-flex flex-column">
+        <label class="fw-medium">School Name:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
+        <label class="fw-medium">School Address:</label>
+        <input class="p-2" type="text" placeholder="Enter student name" />
+        <label class="fw-medium" for="School">Blood Group:</label>
+        <select class="rounded-pill p-2">
+          <option>Select Blood Group</option>
+          <option>O+</option>
+          <option>A+</option>
+          <option>B+</option>
+          <option>AB+</option>
+          <option>O-</option>
+          <option>A-</option>
+          <option>B-</option>
+          <option>AB-</option>
+        </select>
+      </div>
+      <div class="d-flex flex-column">
+        <label class="fw-medium"> Address:</label>
+        <input class="p-2" type="text" placeholder="Enter student address" />
+        <label class="fw-medium">Phone:</label>
+        <input
+          class="p-2"
+          type="number"
+          placeholder="Enter student phone No."
+        />
+        <label class="fw-medium"> Email:</label>
+        <input
+          class="p-2"
+          type="text"
+          placeholder="Enter student email address"
+        />
+      </div>
+      <div class="d-flex flex-column">
+        <label class="fw-medium"> City:</label>
+        <input class="p-2" type="text" placeholder="Enter City" />
+        <label class="fw-medium">State:</label>
+        <input class="p-2" type="number" placeholder="Enter State" />
+        <label class="fw-medium"> Country:</label>
+        <input class="p-2" type="text" placeholder="Enter Country" />
+      </div>
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Medium:</label>
+        <select class="rounded-pill p-2">
           <option>Select Medium</option>
           <option>Sinhala</option>
           <option>English</option>
@@ -121,25 +143,115 @@
           <option>Bodo</option>
           <option>Physics</option>
         </select>
-        <label>Upload Photo:</label>
-        <input type="file" placeholder="No file chosen" />
+        <label class="fw-medium">Upload Photo:</label>
+        <input class="p-2" type="file" placeholder="No file chosen" />
       </div>
-      <div>
-        <label>ID Number:</label>
-        <input type="file" placeholder="No file chosen" />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">ID Number:</label>
+        <input class="p-2" type="file" placeholder="No file chosen" />
       </div>
-      <h2>Admission Deatail</h2>
-      <div>
-        Enter file in which to save the key (C:\Users\sAmtech/.ssh/id_ed25519):
-        srgkartik
-        <label>Student type:</label>
-        <select>
+      <h5 class="text-secondary">Admission Deatail</h5>
+      <hr />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">*Student type:</label>
+        <select class="rounded-pill p-2">
           <option>Male</option>
           <option>Female</option>
         </select>
-        <label>Class:</label>
-        <select id=""></select>
+        <label class="fw-medium">*Class:</label>
+        <select class="rounded-pill p-2">
+          <option>Select Class</option>
+          <option>Nursery</option>
+          <option>L.K.G</option>
+          <option>U.K.G</option>
+          <option>1st</option>
+          <option>2nd</option>
+          <option>3rd</option>
+          <option>4th</option>
+          <option>5th</option>
+          <option>6th</option>
+          <option>7th</option>
+          <option>8th</option>
+          <option>9th</option>
+          <option>10th</option>
+          <option>11th</option>
+          <option>12th</option>
+        </select>
+        <label class="fw-medium">*Section:</label>
+        <select class="rounded-pill p-2">
+          <option>Select section</option>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+        </select>
       </div>
+      <div class="d-flex flex-column">
+        <label class="fw-medium"
+          >School's PAN (Published Admission Number):</label
+        >
+        <input class="p-2" type="text" placeholder="Enter here" />
+      </div>
+      <h5 class="text-secondary">Parent Detail</h5>
+      <hr />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Father's Name:</label>
+        <input class="p-2" type="text" placeholder="Enter Father name" />
+        <label class="fw-medium">Father's Phone:</label>
+        <input
+          class="p-2"
+          type="number"
+          placeholder="Enter father phone number"
+        />
+        <label class="fw-medium">Father's Occupation:</label>
+        <input class="p-2" type="text" placeholder="Enter father Occupation" />
+      </div>
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Mother's Name:</label>
+        <input class="p-2" type="text" placeholder="Enter mother name" />
+        <label class="fw-medium">Mother's Phone:</label>
+        <input
+          class="p-2"
+          type="number"
+          placeholder="Enter mother phone number"
+        />
+        <label class="fw-medium">Mother's Occupation:</label>
+        <input class="p-2" type="text" placeholder="Enter mother Occupation" />
+      </div>
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Upload Parent ID Proof:</label>
+        <input class="p-2" type="file" value="Choose File" />
+      </div>
+      <h5 class="text-secondary">Login Detail</h5>
+      <hr />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">*Username:</label>
+        <input class="p-2" type="text" placeholder="Enter username" />
+        <label class="fw-medium">*Password:</label>
+        <input class="p-2" type="password" placeholder="Enter Password" />
+      </div>
+      <h5 class="text-secondary">Transport Detail</h5>
+      <hr />
+      <div class="d-flex flex-column">
+        <label class="fw-medium">Transport Route and Vehicle:</label>
+        <select class="rounded-pill p-2">
+          <option>Walk</option>
+          <option>Bus</option>
+          <option>Bike</option>
+          <option>Car</option>
+        </select>
+      </div>
+      <h5 class="text-secondary">How Did you Hear From Us?</h5>
+      <hr />
+      <div class="d-flex flex-column">
+        <input type="radio" /> Google <input type="radio" /> Facebook
+        <input type="radio" /> Instagram <input type="radio" /> Friends & Family
+        <input type="radio" /> Banner <input type="radio" /> Flyer
+        <input type="radio" /> Other
+      </div>
+      <h5 class="text-secondary">Student Fees</h5>
+      <hr />
+      <input type="submit" />
     </form>
   </body>
 </html>
