@@ -40,24 +40,22 @@
 }
 
 .header {
-  background-color: #9b59b6;
+  background-color: #3c114d;
 }
 
 .header:hover {
   padding: 10px;
 }
 .student-button {
-  background-color: #9b59b6;
+  background-color: #3c114d;
   border: none;
 }
 .student-button:hover {
-  background-color: #9b59b6;
-  border: none;
+  background-color: #3c114d;
   opacity: 0.7;
 }
 .student-button:active {
-  background-color: #9b59b6;
-  color: red;
+  background-color: #3c114d;
   opacity: 0.5;
 }
 .student-inside-a {
@@ -82,14 +80,44 @@
 }
 .headerh3 {
   color: white;
-  text-align: center;
+
   font-size: 40px;
 }
 .headerimg {
-  height: 60px;
+  height: 80px;
 }
 .footerh6 {
   color: white;
+}
+.attribute-login-to-demo {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+.attribute-login-to-demo:hover {
+  opacity: 0.8;
+  transition: 0.25s;
+}
+.attribute-login-to-demo:active {
+  opacity: 0.5;
+  transition: 0.25s;
+  color: green;
+}
+
+.login-to-demo-button {
+  background-color: rgb(253, 119, 1);
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+}
+.login-to-demo-button:hover {
+  opacity: 0.7;
+  transition: 0.25s;
+}
+.login-to-demo-button:active {
+  opacity: 0.5;
 }
 .four {
   width: 100%;
