@@ -15,8 +15,12 @@ body {
   color: white;
 }
 
-.main {
+.submain {
   background-color: white;
+  height: 80%;
+}
+.submain-2 {
+  height: 20%;
 }
 
 button {
