@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SRG Certificate</title>
+    <link
+      rel="stylesheet"
+      href="../project1/bootstrap-5.3.3-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./student-1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sofia&family=Yatra+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header p-3 d-flex justify-content-between">
+      <span>
+        <img class="headerimg" src="./images/SRG Main Logo (1).png"
+      /></span>
+      <h3 class="headerh3">SRG Computer Traning Institute</h3>
+
+      <div>
+        <a class="attribute" href="#">Home</a>
+        <a class="attribute" href="#">Online Admission</a>
+        <a class="attribute" href="#">Staff Registration</a>
+        <a class="attribute" href="#">Buy Now</a>
+        <a class="attribute" href="#">Log In</a>
+        <a class="attribute" href="#">Student</a>
+        <div class="dropdown mt-3">
+          <button
+            class="btn -secondary dropdown-toggle attribute"
+            type="button"
+            id="book-dropdown"
+            data-bs-toggle="dropdown"
+          >
+            school
+          </button>
+          <ul class="dropdown-menu" aria-labelledy="book-dropdown">
+            <li>
+              <a href="#" class="dropdown-item attribute"
+                >Student Certificate</a
+              >
+            </li>
+            <li>
+              <a href="#" class="dropdown-item attribute">Fee Submission</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-item attribute">Student Invoice</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-item attribute">Admission Enquiry</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-item attribute">Exam Time Table</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-item attribute">Exam Admit Card</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-item attribute">Exam Results</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="img">
+      <img src="./certificate img.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="container custom-margin">
+      <form>
+        <div class="form">
+          <label for="school" class="form-label fw-bold mt-3"
+            ><span class="text-danger fw-bold">*</span>School:</label
+          ><br />
+
+          <select name="school" class="w-100 rounded-5" id="school">
+            <option>Select School</option>
+          </select>
+          <label for="certificate" class="form-label fw-bold mt-3"
+            ><span class="text-danger fw-bold">*</span>Certificate:</label
+          ><br />
+
+          <select name="school" class="w-100 rounded-5" id="certificate">
+            <option>Select Certificate</option>
+          </select>
+          <label for="enrollment" class="form-label fw-bold mt-3"
+            ><span class="text-danger fw-bold">*</span>Enrollment Number:</label
+          ><br />
+
+          <input
+            type="number"
+            class="w-100 rounded"
+            placeholder="Enter Enrollment Number"
+            id="enrollment"
+          />
+          <hr />
+          <button>GET CERTIFICATE</button>
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer d-flex justify-content-center m-1 p-4">
+      <div>
+        <h6 class="margin">
+          SRG Computer Traning Institute Private Limited © 2024-2025 All Right
+          Reserved
+        </h6>
+      </div>
+      <div>
+        <h6 class="footerh6">
+          &#xf0e0; : learnwithsrg@gmail.com, join.srg@gmail.com &#xf095;: +91-
+          9972564798 &#xf232;+91-8178924206, 9891396090 , 9716218820
+        </h6>
+      </div>
+    </footer>
+  </body>
+</html>
