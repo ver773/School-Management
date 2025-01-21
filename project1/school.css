@@ -1,0 +1,31 @@
+p{
+    width:40%;
+    padding:8px;
+}
+body{
+   padding:20px;
+    background-color: rgb(106, 0, 255);
+    color:white;    
+}
+button{
+    width: 10%;
+    border:white;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.blue{
+    padding-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    background: radial-gradient(circle, #0066cc, #0099ff, #00ccff, #66ffff);
+} 
+.intro{
+width:100px;
+height:100px;
+
+}
+.src{
+    width:40px;
+}
+.pb-2{
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+}
