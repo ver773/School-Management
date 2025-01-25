@@ -1,3 +1,7 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
 .heading-h2 {
   margin-left: 10px;
   margin-right: 12px;
@@ -9,23 +13,28 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* margin: 30px; */
 }
 
 .btn:active {
   opacity: 0.3;
   transition: opacity 0.25s;
 }
-.margin {
-  margin-right: 50px;
+.margin2 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
   color: white;
 }
 .attribute {
   color: white;
   text-decoration: none;
   margin: 10px;
+  margin-bottom: 3rem;
   font-weight: bold;
-  font-size: 19px;
 }
 .attribute:hover {
   opacity: 0.7;
@@ -33,91 +42,46 @@
 }
 .attribute:active {
   opacity: 0.5;
-  color: greenyellow;
-}
-.login-button {
-  font-size: 25px;
+  color: red;
 }
 
 .header {
-  background-color: #3c114d;
+  background-color: #7d3c98;
 }
 
 .header:hover {
   padding: 10px;
 }
 .student-button {
-  background-color: #3c114d;
+  background-color: #9b59b6;
   border: none;
 }
 .student-button:hover {
-  background-color: #3c114d;
+  background-color: #9b59b6;
+  border: none;
   opacity: 0.7;
 }
 .student-button:active {
-  background-color: #3c114d;
+  background-color: #9b59b6;
+  color: red;
   opacity: 0.5;
 }
-.student-inside-a {
-  color: black;
-  text-decoration: none;
-  margin: 10px;
-  font-weight: bold;
-  font-size: 18px;
-}
-.student-inside-a :hover {
-  opacity: 0.1;
-  transition: opacity 0.25s;
-}
-.student-inside-a :active {
-  background-color: white;
-  color: green;
-}
 
-.footer {
-  background-color: #17202a;
-  border-bottom: 1px solid white;
-}
 .headerh3 {
   color: white;
-
-  font-size: 40px;
+  text-align: center;
 }
 .headerimg {
-  height: 80px;
+  height: 50px;
 }
-.footerh6 {
-  color: white;
-}
-.attribute-login-to-demo {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  font-weight: bold;
-  font-size: 19px;
-}
-.attribute-login-to-demo:hover {
-  opacity: 0.8;
-  transition: 0.25s;
-}
-.attribute-login-to-demo:active {
-  opacity: 0.5;
-  transition: 0.25s;
-  color: green;
-}
-
-.login-to-demo-button {
-  background-color: rgb(253, 119, 1);
-  padding: 12px;
-  border: none;
-  border-radius: 7px;
-}
-.login-to-demo-button:hover {
-  opacity: 0.7;
-  transition: 0.25s;
-}
-.login-to-demo-button:active {
-  opacity: 0.5;
+.first {
+  /* margin-top: 2rem; */
+  background-color: #2e4053;
+  height: 2.5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .four {
   width: 100%;
@@ -157,60 +121,27 @@
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
-.box .boximg img {
-  height: 250px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-}
-.box h2 {
-  /* margin-bottom: 2rem; */
-  margin-left: 2rem;
-}
-.box7 img {
-  width: 15rem;
-}
-.box5 {
+.three {
   width: 100%;
-}
-.box6 {
-  width: 50%;
-  height: 300px;
-  /* background-image: cover ; */
-
-  margin-top: 1px;
-  /* font-size: 15rem; */
-  gap: 20px;
-  /* border: 2px solid black; */
-  /* background-color: whitesmoke; */
-  padding: 20px 0 15px;
-}
-.box6 .boximg img {
-  width: 100%;
-  height: 50%;
-  margin-bottom: 19rem;
-  background-image: 100%;
-}
-.box17 {
-  width: 100%;
-}
-.box17 h2 {
-  padding: 20px;
-}
-.box13 {
-  width: 100%;
-}
-.box8 img {
-  margin-left: 3rem;
-}
-.last-button-div {
+  height: 5rem;
+  background-color: #212f3d;
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
 }
-.last-button {
-  margin: 10px;
-  padding: 10px;
-  background-color: #17202a;
-  border: 1px solid white;
-  border-radius: 5px;
+.three h6 {
+  margin-top: 15px;
+  color: white;
+}
+.margin {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  margin-bottom: 0;
+}
+.first a {
+  display: block;
+  margin-top: 0.2rem;
+  color: white;
+  text-decoration: none;
 }
