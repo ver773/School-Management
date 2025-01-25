@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  padding: 10px;
+}
+
+input {
+  padding: 6px;
+}
+
+.item-1 {
+  padding-top: 40px;
+}
+
+.gender-div {
+  display: flex;
+  align-items: center;
+}
+
+.gender-input {
+  font-weight: 649;
+  font-size: 14px;
+}
