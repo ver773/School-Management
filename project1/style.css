@@ -6,8 +6,8 @@
   margin-left: 10px;
   margin-right: 12px;
 }
-.imagei1 {
-  height: 375px;
+.width {
+  width: 230px;
 }
 .container-fluid {
   display: flex;
@@ -18,9 +18,12 @@
   /* margin: 30px; */
 }
 
-.btn:active {
-  opacity: 0.3;
-  transition: opacity 0.25s;
+.submit {
+  width: 120px;
+  padding: 10px;
+  background-color: #ffcc00;
+  color: white;
+  border: none;
 }
 .margin2 {
   display: flex;
@@ -36,9 +39,9 @@
   margin-bottom: 3rem;
   font-weight: bold;
 }
-.attribute:hover {
-  opacity: 0.7;
-  transition: opacity 0.25s;
+.star {
+  color: red;
+  margin-right: 5px;
 }
 .attribute:active {
   opacity: 0.5;
@@ -144,4 +147,8 @@
   margin-top: 0.2rem;
   color: white;
   text-decoration: none;
+}
+.aa {
+  text-decoration: none;
+  text-align: right;
 }
