@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SRG Certificate</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./student-2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sofia&family=Yatra+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="img">
+      <img src="./certificate img.png" class="img-fluid" alt="..." />
+    </div>
+    <div class="container custom-margin">
+      <div class="header"></div>
+
+      <form>
+        <div class="form">
+          <label for="school" class="form-label fw-bold mt-3"
+            ><span class="text-danger fw-bold">*</span>School:</label
+          ><br />
+
+          <select name="school" class="w-100 rounded-5" id="school">
+            <option>Select School</option>
+          </select>
+          <label for="certificate" class="form-label fw-bold mt-3"
+            ><span class="text-danger fw-bold">*</span>Certificate:</label
+          ><br />
+
+          <select name="school" class="w-100 rounded-5" id="certificate">
+            <option>Select Certificate</option>
+          </select>
+          <label for="enrollment" class="form-label fw-bold mt-3"
+            ><span class="text-danger fw-bold">*</span>Enrollment Number:</label
+          ><br />
+
+          <input
+            type="number"
+            class="w-100 rounded"
+            placeholder="Enter Enrollment Number"
+            id="enrollment"
+          />
+          <hr />
+          <button>GET CERTIFICATE</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

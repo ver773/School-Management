@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading-h1 {
+  text-align: center;
+  margin: 30px;
+}
+.heading-h2 {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 12px;
+  margin: 30px;
+}
+.imagei1 {
+  height: 375px;
+}
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
+
+.btn:active {
+  opacity: 0.1;
+  transition: opacity 0.25s;
+}
+.margin {
+  margin-right: 50px;
+  color: white;
+}
+.attribute {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+.attribute:hover {
+  opacity: 0.7;
+  transition: opacity 0.25s;
+}
+.attribute:active {
+  opacity: 0.5;
+  color: red;
+}
+
+.header {
+  background-color: #9b59b6;
+}
+.header:hover {
+  padding: 10px;
+}
+.footer {
+  background-color: #9b59b6;
+}
+.headerh3 {
+  color: white;
+  text-align: center;
+}
+.headerimg {
+  height: 50px;
+}
+body {
+  font-family: "Nunito Sans", serif;
+}
+
+#school {
+  height: 35px;
+}
+
+#certificate {
+  height: 35px;
+}
+#enrollment {
+  height: 40px;
+  border: 2px solid rgb(173, 171, 171);
+}
+button {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(255, 191, 0);
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+}
+button:hover {
+  color: darkorange;
+  background-color: whitesmoke;
+  box-shadow: 5px 3px 3px;
+  transition: 0.3s;
+}
+.custom-margin {
+  margin-top: 5%;
+}
